@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoQuintoWeb", "ProyectoQuintoWeb\ProyectoQuintoWeb.csproj", "{86B6ABB2-6782-4314-931F-B3A1878B671A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_Negocio", "Capa_Negocio\Capa_Negocio.csproj", "{0B7FAD75-F5BD-4286-9524-4B09CD9817C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_Datos", "Capa_Datos\Capa_Datos.csproj", "{53FDDE68-1678-45DA-834A-1BA744ADF23D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{86B6ABB2-6782-4314-931F-B3A1878B671A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B6ABB2-6782-4314-931F-B3A1878B671A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B6ABB2-6782-4314-931F-B3A1878B671A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7FAD75-F5BD-4286-9524-4B09CD9817C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7FAD75-F5BD-4286-9524-4B09CD9817C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7FAD75-F5BD-4286-9524-4B09CD9817C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7FAD75-F5BD-4286-9524-4B09CD9817C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FDDE68-1678-45DA-834A-1BA744ADF23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FDDE68-1678-45DA-834A-1BA744ADF23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FDDE68-1678-45DA-834A-1BA744ADF23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FDDE68-1678-45DA-834A-1BA744ADF23D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
