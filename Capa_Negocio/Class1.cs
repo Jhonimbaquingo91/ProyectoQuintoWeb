@@ -8,5 +8,7 @@ namespace Capa_Negocio
 {
     public class Class1
     {
+        //sdf/
+        ///dfgdsg
     }
 }
