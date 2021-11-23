@@ -9,5 +9,7 @@ namespace Capa_Datos
     public class Class1
     {
         //prueba de git
+
+        //si lees esto te sacare del grupo ggg
     }
 }
