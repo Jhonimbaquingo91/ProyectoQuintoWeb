@@ -67,12 +67,130 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Menu.aspx" />
+    <Content Include="Menu\css\animate.css" />
+    <Content Include="Menu\css\bootstrap.min.css" />
+    <Content Include="Menu\css\bootstrap\mixins\_border-radius.css" />
+    <Content Include="Menu\css\bootstrap\mixins\_screen-reader.css" />
+    <Content Include="Menu\css\bootstrap\mixins\_visibility.css" />
+    <Content Include="Menu\css\bootstrap\utilities\_stretched-link.css" />
+    <Content Include="Menu\css\bootstrap\_media.css" />
+    <Content Include="Menu\css\style.css" />
+    <Content Include="Menu\js\bootstrap.min.js" />
+    <Content Include="Menu\js\jquery.min.js" />
+    <Content Include="Menu\js\main.js" />
+    <Content Include="Menu\js\popper.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Menu\css\.DS_Store" />
+    <Content Include="Menu\css\bootstrap\.DS_Store" />
+    <Content Include="Menu\css\bootstrap\mixins\.DS_Store" />
+    <Content Include="Menu\font\.DS_Store" />
+    <Content Include="Menu\imagenes\.DS_Store" />
+    <Content Include="Menu\js\.DS_Store" />
+    <Content Include="Menu\scss\.DS_Store" />
+    <Content Include="Menu\scss\bootstrap\.DS_Store" />
+    <Content Include="Menu\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="Menu\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="Menu\scss\bootstrap\bootstrap.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_deprecate.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="Menu\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_overflow.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_shadows.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_stretched-link.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="Menu\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="Menu\scss\bootstrap\vendor\_rfs.scss" />
+    <Content Include="Menu\scss\bootstrap\_alert.scss" />
+    <Content Include="Menu\scss\bootstrap\_badge.scss" />
+    <Content Include="Menu\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="Menu\scss\bootstrap\_button-group.scss" />
+    <Content Include="Menu\scss\bootstrap\_buttons.scss" />
+    <Content Include="Menu\scss\bootstrap\_card.scss" />
+    <Content Include="Menu\scss\bootstrap\_carousel.scss" />
+    <Content Include="Menu\scss\bootstrap\_close.scss" />
+    <Content Include="Menu\scss\bootstrap\_code.scss" />
+    <Content Include="Menu\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="Menu\scss\bootstrap\_dropdown.scss" />
+    <Content Include="Menu\scss\bootstrap\_forms.scss" />
+    <Content Include="Menu\scss\bootstrap\_functions.scss" />
+    <Content Include="Menu\scss\bootstrap\_grid.scss" />
+    <Content Include="Menu\scss\bootstrap\_images.scss" />
+    <Content Include="Menu\scss\bootstrap\_input-group.scss" />
+    <Content Include="Menu\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="Menu\scss\bootstrap\_list-group.scss" />
+    <Content Include="Menu\scss\bootstrap\_media.scss" />
+    <Content Include="Menu\scss\bootstrap\_mixins.scss" />
+    <Content Include="Menu\scss\bootstrap\_modal.scss" />
+    <Content Include="Menu\scss\bootstrap\_nav.scss" />
+    <Content Include="Menu\scss\bootstrap\_navbar.scss" />
+    <Content Include="Menu\scss\bootstrap\_pagination.scss" />
+    <Content Include="Menu\scss\bootstrap\_popover.scss" />
+    <Content Include="Menu\scss\bootstrap\_print.scss" />
+    <Content Include="Menu\scss\bootstrap\_progress.scss" />
+    <Content Include="Menu\scss\bootstrap\_reboot.scss" />
+    <Content Include="Menu\scss\bootstrap\_root.scss" />
+    <Content Include="Menu\scss\bootstrap\_spinners.scss" />
+    <Content Include="Menu\scss\bootstrap\_tables.scss" />
+    <Content Include="Menu\scss\bootstrap\_toasts.scss" />
+    <Content Include="Menu\scss\bootstrap\_tooltip.scss" />
+    <Content Include="Menu\scss\bootstrap\_transitions.scss" />
+    <Content Include="Menu\scss\bootstrap\_type.scss" />
+    <Content Include="Menu\scss\bootstrap\_utilities.scss" />
+    <Content Include="Menu\scss\bootstrap\_variables.scss" />
+    <Content Include="Menu\scss\style.scss" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +199,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
